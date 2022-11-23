@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+}
+.glass{
+  background-image: url(../public/img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+}
+.glass .overlay{
+  background-color: rgba(92, 92, 92, 0.6); 
+  color: rgba(92, 92, 92, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 800px;
+  width: 100%;
+}
+.glass .overlay-header{
+  background-color: rgba(92, 92, 92, 0.6); 
+  color: rgba(92, 92, 92, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+}
+.title{
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  left: 500px;
+  font-size: 30px;
+}
+.glass .model .col-6{
+  background: url(../public/img/model.jpg);
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 150px;;
+  left: 50px;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+}
+.glass .model .col-5{
+  background: url(../public/img/model.jpg);
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: 150px;
+  bottom: 150px;
+  background-repeat: no-repeat;
+  
+}
